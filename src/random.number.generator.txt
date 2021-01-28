@@ -1,0 +1,10 @@
+My random generator consisted of the following snippet of code:
+
+  int upperBound = choose_file;
+    Random number = new Random();
+    ArrayList<Integer> unsorted_keys = new ArrayList<Integer>();
+    for (int i = 0; i < choose_file; i++) {
+      unsorted_keys.add(number.nextInt(upperBound));
+
+This helped me populate the different input files quickly and effectively. After populating the input files,
+ I no longer needed this snippet in my code to execute the algorithms and show the difference in computing time.
